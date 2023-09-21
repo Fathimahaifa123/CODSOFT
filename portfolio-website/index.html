@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haifa-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(0, 0, 33);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgba(18, 18, 62);
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }  
+        nav ul li a{
+            text-decoration: none;
+           color: white;
+        }  
+        nav ul li a:hover{
+            color:rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }  
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection  {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20vh 0;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        div.haifa{
+            font-size: 20px;
+            margin: 10px;
+            
+        }
+        .text-grey{
+            color: grey;
+            font-size: 1.9rem;
+        }
+
+
+        .leftSection{
+           
+            font-size: 3rem;
+            margin: 70px 0;
+            
+
+        }
+        .rightSection img{
+            width: 80%;
+            margin: 30px 0 ;
+            
+        }  
+        .purple{
+            color: rgb(170, 107, 228);
+        }
+        .Secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 110vh;
+        }
+        .Secondsection{
+            font-size: 1.9rem;
+        }
+       .Secondsection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+        }
+       .Secondsection .vertical{
+            
+            height: 93px;
+            width: 1px;
+            background-color: white;
+        }
+        /* .Secondsection {
+  text-align: right; /* Right-align text */
+  /* padding-top: 10px; /* Add top padding */
+  /* padding-bottom: 10px; Add bottom padding */
+  /* color: white; White text color
+} */ 
+
+.skillshtml {width: 90%; background-color:  rgb(170, 107, 228);} 
+.skillscss {width: 80%; background-color:  rgb(170, 107, 228);} 
+.skillsjs {width: 65%; background-color:  rgb(170, 107, 228);} 
+.skillsc {width: 60%; background-color:  rgb(170, 107, 228);}
+.skillspython {width: 60%; background-color:  rgb(170, 107, 228);}
+        
+
+        .containers {
+            width: 300px;
+            height: 200px;
+            background-color: rgb(170, 107, 228);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .projects {
+            color:black;
+            font-size: 20px;
+        }
+        .heading{
+            font-size: 18px;
+            text-align: center;
+            position: relative;
+        right: 10px;
+        }
+.image{
+    height:100px;
+    width: 100px;
+    position: relative;
+    align-items: center;
+    left: 90px; 
+}
+Thirdsection{
+    max-width: 80vw;
+            margin: auto;
+            height: 150vh;
+}
+#downloadButton{
+    background-color: rgb(170, 107, 228);
+    height: 60px;
+    width: 200px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+#downloadButton:hover{
+    background-color: purple;
+    color: black;
+}
+/* styles.css */
+
+/* Style the footer */
+footer {
+    background-color: rgb(170, 107, 228);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style the copyright notice */
+.copyright {
+    font-size: 14px;
+}
+
+/* Style the additional links */
+.additional-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
+}
+
+        
+    </style>
+
+
+
+<body>
+    <header>
+        <nav >
+            <div class="left"> Haifa's Portfolio</div>
+            <div class="right">
+                <ul>
+                    
+                    <li> <a href="#about">About      </a> </li>     
+                    <li> <a href="#skills">Skills     </a> </li>    
+                    <li> <a href="#project">Projects   </a> </li>    
+                    <li> <a href="#resume">Resume     </a> </li>    
+                    <li> <a href="#contact">Contact Me  </a></li>  
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="about">
+         <div class="leftSection">
+            Hi,My name is <span class="purple">Fathima Haifa</span>
+            <!-- <div class="haifa">
+               I'am currently pursuing my Bacheoler degree in <span>Computer Science</span> at P.A College of Engineering Proficient in <span> C# C++ Python Java</span>.Working as an Intren at CodeLab system with Domain <span>MERN STACK </span>.Ability to translate Buisness requirments into innovative Software Solution.Excellent <span>team work interpersonnel and communication skills</span>.Looking to start career as an Entry-level professional in the reputed IT  company
+            </div> -->
+           <div class="haifa"> <span id="element"></span> </div>
+         </div>
+            <div class="rightSection">
+                <img src="Haifa.jpg" alt="">
+                
+            </div>
+
+        </section>
+<hr>
+        <section class="Secondsection" id="skills">
+            
+    
+            <span class="text-grey" >WHAT I CAN DO</span>
+            <h1 class="purple">SKILLS</h1>
+            
+            <br>
+             <p style="color: grey;">HTML</p>
+<div class="container">
+  <div class="skillshtml">90%</div>
+</div>
+<br>
+
+<p style="color: grey;">CSS</p>
+<div class="container">
+  <div class="skillscss">80%</div>
+</div>
+<br>
+
+<p style="color: grey;">JavaScript</p>
+<div class="container">
+  <div class="skillsjs">65%</div>
+</div>
+<br>
+
+<p style="color: grey;" >C#</p>
+<div class="container">
+  <div class="skillsc">60%</div>
+</div>
+<br>
+
+<p style="color: grey;">PYTHON</p>
+<div class="container">
+  <div class="skillspython">60%</div>
+</div>
+<br>
+
+
+
+        </section>
+        <hr>
+        <section class="Secondsection" id="project" >
+             <span class="text-grey" style=" left: 500px;">WHAT I DID</span>
+             <h1 class="purple">PROJECTS</h1>  
+             
+             <div class="containers">
+                <div class="projects">
+                    <h2 class="heading">LIBRARY MANAGEMENT SYSTEM </h2>
+                    <img src="library-114.png" alt="" class="image">
+                    <p style="font-size: 16px;"><b>Explore my Database Management Project: </b> Management System using SQL, PHP for efficient book cataloging, user management, and more.</p>
+                </div>
+            </div>
+        
+            <div class="containers">
+                <div class="projects">
+                    <h2 class="heading"> SLOW AND STEADY WINS THE RACE</h2>
+                    <img src="openGL.png" alt="" class="image" style="color: black;">
+                    <p style="font-size: 16px;"><b>My OpenGL Project,</b> 'Persistence Triumphs,' highlights graphics, animations, and data persistence for a dynamic and interactive user experience.</p>
+                </div>
+            </div>
+        
+            <div class="containers">
+                <div class="projects">
+                    <h2 class="heading" ">FLIP FLOP A CARD GAME</h2>
+                    <img src="FLIPCARD.png" alt="" class="image" style="top:5px;">
+                    <p style="font-size: 16px;">Crafted a captivating Flip Flop card game using <b>Android Studio and XML,</b> delivering an immersive gaming experience with sleek design</p>
+                </div>
+            </div>
+        
+            <div class="containers">
+                <div class="projects">
+                    <h2 class="heading">EMPLOYEE MANAGEMENT SYSTEM</h2>
+                    <img src="ems.jpeg" alt="" class="image" >
+                    <p style="font-size: 16px;">Built an efficient Employee Management System using <b>React JS</b>, streamlining HR tasks and enhancing workforce management for seamless operations</p>
+                </div>
+            </div>
+        
+           
+            </section>
+        <hr>
+        <section class="Secondsection" style="height: 40vh;" id="resume" >
+            <span class="text-grey" style=" left: 500px;">MY</span>
+            <h1 class="purple">RESUME</h1>
+            <button id="downloadButton" > <a href="Haifa_Resume.pdf" style="text-decoration: none;">Download </a></button>
+            <img src="" alt="">
+        
+        </section>
+        <hr>
+        <section class="Secondsection" style="height: 50vh;" id="contact" >
+            <span class="text-grey" style=" left: 500px;">REACH OUT</span>
+            <h1 class="purple">TO ME</h1>
+          <a href="tel:+919110252763">  <img src="call.png" alt="" style="height: 40px; position: relative; top: 30px; left: 50px;"></a><div style="color: white; font-size: 40px; position: relative; left: 110px; bottom: 28px; padding: 5px;"> +91 9110252763  <a href="mailto:fathimahaifa2763@gmail.com"><img src="email.png" alt="" style="height: 40px;  position: relative;left: 100px;"></a> <span style=" position: relative;left: 110px ; bottom: 10px;">fathimahaifa2763@gmail.com</span>
+                </div>
+             <a href="https://github.com/Fathimahaifa123/CODSOFT">   <img src="git.png" alt="" style="height: 40px; position: relative; top: 40px; left: 50px;"></a> <p style="position: relative; left: 120px;">Fathimahaifa123</p> <a href="https://www.linkedin.com/in/fathima-haifa-674bb3225"><img src="in.png" alt="" style="position: relative; left: 500px; height: 40px; bottom: 50px;">  </a><span style="position: relative; left: 530px; bottom: 55px;">fathima-haifa-674bb3225</span>
+        </section>
+        
+        <footer>
+            <div class="copyright">
+                
+            </div>
+            <div class="additional-links">
+                &copy; <span id="author">haifa</span> 2023. All rights reserved.
+        
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [' Iam currently pursuing my Bacheoler degree in Computer Science, at P.A College of Engineering. Working as an Intren at CodeLab system with Domain "MERN STACK".Ability to translate Buisness requirments into innovative Software Solution.Excellent team work interpersonnel and communication skills.Looking to start career as an Entry-level professional in the reputed IT  company'],
+          typeSpeed: 100
+        });
+      </script>
+       <!-- <script>
+        document.getElementById("downloadButton").addEventListener("click", function () {
+            
+            window.location.href = 'Haifa_Resume.pdf';
+        });
+
+        
+    </script> -->
+</body>
+
+</html>
